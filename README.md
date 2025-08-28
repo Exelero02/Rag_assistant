@@ -22,20 +22,6 @@ streamlit run app_streamlit.py
 
 ---
 
-## 🗂 Project Structure
-rag_assistant/
-├─ app_streamlit.py # Streamlit front-end (talks to FastAPI)
-├─ requirements.txt
-├─ docs/
-│ └─ sample.txt # Example content (replace with your notes)
-├─ data/ # Generated index + store live here
-│ ├─ index.faiss
-│ └─ store.json
-└─ src/
-├─ ingest.py # Builds FAISS index from docs/
-└─ app.py # FastAPI backend: /query
-
----
 
 🧠 How It Works (MVP)
 
